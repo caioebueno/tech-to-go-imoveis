@@ -1,0 +1,23 @@
+{
+  "name": "imoveis-tech-to-go",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.15.0",
+    "cloudinary": "^1.23.0",
+    "components": "^0.1.0",
+    "formidable": "^1.2.2",
+    "next": "10.0.5",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "styled": "^1.0.0"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.15.0"
+  }
+}
