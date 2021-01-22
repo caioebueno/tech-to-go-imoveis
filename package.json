@@ -15,9 +15,12 @@
     "next": "10.0.5",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "styled": "^1.0.0"
+    "react-icons": "^4.1.0",
+    "styled": "^1.0.0",
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
-    "@prisma/cli": "^2.15.0"
+    "@prisma/cli": "^2.15.0",
+    "babel-plugin-styled-components": "^1.12.0"
   }
 }
