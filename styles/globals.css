@@ -6,7 +6,8 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   color: #0F2234;
-  background-color: #0F2234;
+  background-color: #F9F9F9;
+  width: 100vw;
 }
 
 button {
@@ -38,4 +39,18 @@ input {
 
 ::placeholder {
   color: #ACB4BB;
+}
+
+/* MATERIAL UI */
+
+.MuiSlider-root {
+  width: 200px !important;
+}
+
+.MuiSlider-track {
+  background-color: #0056DA !important;
+}
+
+.MuiSlider-thumb {
+  background-color: #0056DA !important;
 }

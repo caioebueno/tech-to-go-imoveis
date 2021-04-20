@@ -1,12 +1,10 @@
 import styled from 'styled-components'
 
-export const Button = styled.button`
-    padding: 13px 30px 13px 30px;
+export const Container = styled.div`
+    padding: 3px 7px 3px 7px;
     background-color: ${(props) => props.backgroundColor};
     color: ${(props) => props.color};
     border-radius: 3px;
-    font-weight: 600;
-    font-size: 13px;
-    max-height: 55px;
-    cursor: pointer;
+    font-weight: 500;
+    font-size: 9px;
 `

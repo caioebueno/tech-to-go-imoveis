@@ -1,12 +1,13 @@
 import styled from 'styled-components'
 
 export const Body = styled.div`
+    position: absolute;
     width: 778px;
     background: #FFFFFF;
     border: 1px solid #F4F4F4;
     border-radius: 0px 0px 3px 3px;
     padding: 15px;
-    margin-top: -3px;
+    margin-top: 105px;
 `
 
 export const Label = styled.label`

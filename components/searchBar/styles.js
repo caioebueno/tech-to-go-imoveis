@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Body = styled.div`
-    margin: 20px;
     display: flex;
     flex-direction: column;
 `
