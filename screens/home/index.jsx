@@ -1,11 +1,15 @@
 import React from 'react'
 
 // STYLED COMPONENTS
-import { Title, Center, Header,
+import {
+    Title, Center, Header,
     Container, Main, Col, Row,
     Subtitle, Description, SaleItemContainer,
-    SaleTab,
+    SaleTab
 } from './styles'
+
+
+
 
 // COMPONENTS IMPORT
 import SearchBar from '@/components/searchBar'
@@ -32,7 +36,7 @@ function Home(props) {
                         <Subtitle>Imoveis De Destaque</Subtitle>
                         <Description>Alguma descricao aqui alguma coisa, nao sei oque. Olhe as melhores oportunidades.</Description>
                     </Col>
-                    <Button 
+                    <Button
                         title='Ver todos imoveis'
                         backgroundColor='#DDE8F6'
                         color='#0056DA'
@@ -44,7 +48,7 @@ function Home(props) {
                     <SaleTab>Terrenos</SaleTab>
                 </Row>
                 <SaleItemContainer>
-                    <SaleItem 
+                    <SaleItem
                         price={1000000}
                         title='Casa na rua do mar'
                         address='Rua 115 a1'
@@ -53,7 +57,7 @@ function Home(props) {
                         bathroom={2}
                         image='https://res.cloudinary.com/duajhdher/image/upload/v1608253988/ndkxrnplj9v59jqq90yp.jpg'
                     />
-                    <SaleItem 
+                    <SaleItem
                         price={1000000}
                         title='Casa na rua do mar'
                         address='Rua 115 a1'
@@ -62,7 +66,7 @@ function Home(props) {
                         bathroom={2}
                         image='https://res.cloudinary.com/duajhdher/image/upload/v1608253988/ndkxrnplj9v59jqq90yp.jpg'
                     />
-                    <SaleItem 
+                    <SaleItem
                         price={1000000}
                         title='Casa na rua do mar'
                         address='Rua 115 a1'
@@ -72,7 +76,7 @@ function Home(props) {
                         image='https://res.cloudinary.com/duajhdher/image/upload/v1608253988/ndkxrnplj9v59jqq90yp.jpg'
                         end
                     />
-                    <SaleItem 
+                    <SaleItem
                         price={1000000}
                         title='Casa na rua do mar'
                         address='Rua 115 a1'
@@ -81,7 +85,7 @@ function Home(props) {
                         bathroom={2}
                         image='https://res.cloudinary.com/duajhdher/image/upload/v1608253988/ndkxrnplj9v59jqq90yp.jpg'
                     />
-                    <SaleItem 
+                    <SaleItem
                         price={1000000}
                         title='Casa na rua do mar'
                         address='Rua 115 a1'
@@ -90,7 +94,7 @@ function Home(props) {
                         bathroom={2}
                         image='https://res.cloudinary.com/duajhdher/image/upload/v1608253988/ndkxrnplj9v59jqq90yp.jpg'
                     />
-                    <SaleItem 
+                    <SaleItem
                         price={1000000}
                         title='Casa na rua do mar'
                         address='Rua 115 a1'

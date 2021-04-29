@@ -8,7 +8,7 @@ export const Body = styled.div`
 `
 
 export const Main = styled.main`
-    width: 1000px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -2,55 +2,55 @@
 
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-  color: #0F2234;
-  background-color: #F9F9F9;
-  width: 100vw;
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	color: #0f2234;
+	background-color: #f9f9f9;
+	width: 100%;
 }
 
 button {
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
 }
 
 button:focus {
-  outline: none;
+	outline: none;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 input:focus {
-  outline: none;
+	outline: none;
 }
 
 input {
-  border: none;
+	border: none;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 ::placeholder {
-  color: #ACB4BB;
+	color: #acb4bb;
 }
 
 /* MATERIAL UI */
 
 .MuiSlider-root {
-  width: 200px !important;
+	width: 200px !important;
 }
 
 .MuiSlider-track {
-  background-color: #0056DA !important;
+	background-color: #0056da !important;
 }
 
 .MuiSlider-thumb {
-  background-color: #0056DA !important;
+	background-color: #0056da !important;
 }

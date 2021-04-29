@@ -3,6 +3,7 @@ import { useRouter } from 'next/router'
 
 // COMPONENTS IMPORT
 import Navbar from '@/components/navbar'
+import Product from '@/components/product/index';
 
 function Item(props) {
     const router = useRouter()
@@ -13,10 +14,10 @@ function Item(props) {
     }, [])
 
     return (
-        <div>
+        <>
             <Navbar />
-            <h1>Item {id}</h1>
-        </div>
+            <Product id={router.query.item} />
+        </>
     );
 }
 

@@ -86,3 +86,6 @@ export const SaleTab = styled.span`
         border-bottom: 2px solid #0056DA;
     `}
 `
+
+export const Dashboard = styled.button`
+`
